@@ -2,18 +2,48 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Yareth Melendez Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <script src="script.js"></script>
   </head>
   <body>
+      <div class = "header">
+           <a href="gallery.html"><i class="material-icons">collections</i></a>  
+           <a href="http://www.linkedin.com/in/yareth-m-melendez-rivera" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i> </a> 
+           <a href="https://github.com/yarethmelendez" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>
+
+           
+      </div>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
+      <h1>Yareth M Melendez Rivera</h1>
+      <img src="/images/avatar.png" width="500" height="450"/>
+      <p> Fourth-year Computer Engineering student with a minor in Computer Science at the 
+          Inter American University of Bayamon, Puerto Rico. Currently interested in web development and data science. 
+      </p>
+
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Click here to get a random message:</p>
       <button onclick="addRandomGreeting()">Hello</button>
       <div id="greeting-container"></div>
+
+      <!-- PROJECT LIST-->
+      <h3>Projects I have worked on:</h3>
+      <dl>
+        <dt><b><i>Virtual Business Card</i></b></dt>
+        <dd><li>Designed and created a mobile app using React Native to allow professionals to create and share their virtual
+            business card using a mobile device and a QR code.</li></dd>
+            
+        <dt><b><i>Honeywell UAV Challenge</i></b></dt>
+        <dd><li>Worked with a high diverse team of engineering students. Applying my teamwork, problem solving and software
+            skills to build an Unmanned Aerial Vehicle from scratch. Responsible for the selection of components, top level system definition, drone setup and configuration by doing
+            research.</li> </dd>
+
+        <dt><b><i>Early Detection of Brain Disease Using CNN’s</i></b></dt>
+        <dd><li>Researched about the impact and performance of Convolutional Neural Network (CNN) models applied to brain imagery data to detect brain anomalies.</li></dd>
+      </dl>
+
     </div>
   </body>
 </html>

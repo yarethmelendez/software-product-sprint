@@ -7,3 +7,10 @@
 #greeting-container {
   margin-top: 20px;
 }
+#header {
+  background-color: rgba(255, 226, 199, 0.836);
+  text-align: center;
+  padding: 20px;
+}
+
+
